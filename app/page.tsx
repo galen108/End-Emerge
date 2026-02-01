@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Sparkles } from 'lucide-react';
 
-const EndEmerge = () => {
+export default function EndEmerge() {
     const [section, setSection] = useState('intro');
     const [glitchActive, setGlitchActive] = useState(false);
     const [emerged, setEmerged] = useState(false);
@@ -202,5 +202,3 @@ const EndEmerge = () => {
         </div>
     );
 }
-
-export default EndEmerge;
